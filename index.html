@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/88d3e0d3a7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Namrata Kherde</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">web developer</p>
+        <img src="./images/PHOTO.jpg" height="300px" alt="a picture of namrata smiling" class="intro__img">
+    </section>
+    <!-- My Projects -->
+    <section class="my-projects" id="projects">
+        <h2 class="section__title section__title--projects">My Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Warehouse Management Robot</h3>
+                <p>Developed a warehouse management robot for easy and error-free delivery of
+                    the desired goods at the dispatch counter. This robot was developed using Arduino,IR sensors for navigation,ultrasonic
+                    sensor for obstacle avoidance,and TCS 3200 color sensor for color recognition.</p>
+            </div> <!-- / project -->
+            
+            <div class="project">
+                <h3>Voice Controlled Home Automation</h3>
+                <p>Voice Controlled Home Automation n IoT based voice controlled system using Arduino Uno and Relay module.</p>
+            </div> <!-- / project -->
+            
+            <div class="project">
+                <h3>Personal Portfolio Website</h3>
+                <p> A portfolio website of my own using HTML,CSS,JavaScript.</p>
+            </div> <!-- / project -->
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+    <!-- /My projects -->
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">A Web developer and a keen learner</p>
+        
+        <div class="about-me__body">
+            <p>I am Namrata Kherde. I come from Khamgaon, a town in Buldhana district of Maharashtra. Currently  I am pursuing BE in Electronics and Telecommunication from Shri Sant Gajanan Maharaj College of Engineering, Shegaon. I did my HSC from Laxminarayan International Junior College, Khamgaon with 69.69%, and SSC from St. Anne’s English Medium High School with 94.40%.</p>
+            <p>I am well acquainted with Cpp language, html, CSS, JavaScript, Arduino and I have basic knowledge about SQL . I’m good at time-management, organization, teamwork, and also presentation. </p>
+        </div>
+        
+        <img src="./images/PHOTO2.jpg" height="200px"  alt="namrata sitting at a restaurant" class="about-me__img">
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:namratakherde2001@gmail.com" class="footer__link">namratakherde2001@gmail.com</a>
+          <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/namrata-kherde-bb53171a0/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/namratakherde">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://twitter.com/namrata_kherde">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            </ul>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
